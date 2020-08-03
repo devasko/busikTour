@@ -250,7 +250,7 @@ body {
 header {
   position: relative;
   min-height: 100vh;
-  background-image: url("../../img/slider.jpg");
+  background-image: url("../img/slider.jpg");
   background-color: #e1e1e1;
   background-size: cover;
   background-position: top center;
