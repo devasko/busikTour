@@ -312,6 +312,7 @@ header {
     padding: 25px;
     background-color: #181834;
     cursor: pointer;
+    text-decoration: none;
     -webkit-transition: .5s;
     transition: .5s; }
     header .logo:hover {
