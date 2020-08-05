@@ -24,11 +24,18 @@ $( document ).ready( function () {
                 dots: true,
             }
         }
-    })
+    });
 
     //  Настройки маски ввода телефона
 
     $("#phone").mask("+375 (999) 99 99 99");
+
+//    Галерея автопарка
+
+    $('#thumbs').delegate('img','click', function(){
+        $('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
+        $('#description').html($(this).attr('alt'));
+    });
 
 
 });
